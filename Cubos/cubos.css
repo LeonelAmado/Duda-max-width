@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    background-color: red;
+}
+.container-1 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+.container section {
+    width: 30%;
+}
+.container-1 section {
+    width: 45%;
+}
+.container section.a{
+    background-color: aqua;
+}
+.container section.b{
+    background-color: black;
+}
+.container section.c{
+    background-color: blueviolet;
+}
+.container-1 section.d{
+    background-color: brown;
+}
+.container-1 section.e{
+    background-color: chartreuse;
+}
+div.container {
+    display: flex;
+
+}
+div.container-1 {
+    display: flex
+}
